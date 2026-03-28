@@ -1,6 +1,6 @@
-# Achsanul Jabbar - Portfolio Website
+# Raihan Guntur Ramadhan - Portfolio Website
 
-Interactive portfolio website for **Achsanul Jabbar Adibrata** - Full-Stack Web Developer & Blockchain Engineer.
+Interactive portfolio website for **Raihan Guntur Ramadhan** - Software Engineer & Creative Developer.
 
 ## 🚀 Tech Stack
 
@@ -13,8 +13,8 @@ Interactive portfolio website for **Achsanul Jabbar Adibrata** - Full-Stack Web 
 ## 💼 Expertise
 
 - Full-Stack Web Development
-- Blockchain Development (Solana)
-- React, Next.js, TypeScript
+- Game Development & Scripting
+- Python, C#, JavaScript, Lua
 - Modern UI/UX Design
 
 ## Run Locally
