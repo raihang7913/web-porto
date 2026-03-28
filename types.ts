@@ -109,7 +109,7 @@ export const ACHIEVEMENTS = [
 ];
 
 export const PHILOSOPHY = [
-  { title: "Innovation", text: "Embracing cutting-edge technologies like blockchain and modern web frameworks." },
+  { title: "Innovation", text: "Embracing cutting-edge technologies and modern frameworks to scale ideas into functional products." },
   { title: "Quality", text: "Writing clean, maintainable code with best practices and performance optimization." },
-  { title: "Impact", text: "Building solutions that solve real problems and deliver tangible business value." }
+  { title: "Impact", text: "Building robust software solutions that solve real-world problems and deliver tangible value." }
 ];
