@@ -92,7 +92,14 @@ export const PROJECTS: Project[] = [
     category: "Lua Scripting",
     description: "Auto Fishing Script. A custom Lua automation tool with RNG detection and data processing capabilities.",
     image: "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?q=80&w=800&auto=format&fit=crop",
-    link: "https://github.com/raihang7913/fishit"  }
+    link: "https://github.com/raihang7913/fishit"  },
+  {
+    title: "MT5 AI Trader",
+    category: "AI Trading Bot",
+    description: "Institutional-grade algorithmic trading bot for MetaTrader 5 (MT5). Leverages Google Gemini API, Machine Learning (XGBoost/LightGBM), and Smart Money Concepts for automated execution.",
+    image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+    link: "https://github.com/raihang7913/MT5-AI-Trader"
+  }
 ];
 
 export const SERVICES = [
