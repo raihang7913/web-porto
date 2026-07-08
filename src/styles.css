@@ -206,18 +206,6 @@ h1 span, h2 span {
 }
 .statusCard b { display: block; margin-bottom: 4px; }
 .statusCard span { color: var(--muted); font-size: 13px; }
-.codeChip {
-  position: absolute;
-  padding: 10px 13px;
-  border: 1px solid rgba(57,225,255,.22);
-  border-radius: 16px;
-  background: rgba(7, 8, 11, .74);
-  color: #b9eeff;
-  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
-  font-size: 12px;
-  box-shadow: var(--shadow);
-}
-.chipA { top: 34px; left: -34px; }
 .section { padding: 78px 0; }
 .sectionHead { display: flex; align-items: end; justify-content: space-between; gap: 34px; margin-bottom: 30px; }
 .sectionHead.compact { display: block; }
@@ -362,7 +350,6 @@ h2 { max-width: 780px; margin: 8px 0 0; font-size: clamp(34px, 5vw, 64px); line-
   .projectImage { display: none; }
   .time { grid-template-columns: 1fr; }
   .statusCard { left: 14px; right: 14px; bottom: 14px; width: auto; }
-  .codeChip { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {

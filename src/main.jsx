@@ -101,7 +101,6 @@ function App() {
               </div>
               <div className="statusCard"><b>Raihan Guntur Ramadhan</b><span>React · FastAPI · automation-minded engineer.</span></div>
             </MagneticCard>
-            <div className="codeChip chipA">ship useful software</div>
           </div>
         </section>
 
