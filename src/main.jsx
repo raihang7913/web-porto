@@ -102,9 +102,6 @@ function App() {
               <div className="statusCard"><b>Raihan Guntur Ramadhan</b><span>React · FastAPI · automation-minded engineer.</span></div>
             </MagneticCard>
             <div className="codeChip chipA">ship useful software</div>
-            <div className="orbitBadge badgeA">React</div>
-            <div className="orbitBadge badgeB">FastAPI</div>
-            <div className="orbitBadge badgeC">Automation</div>
           </div>
         </section>
 
