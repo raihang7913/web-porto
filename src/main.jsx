@@ -44,9 +44,23 @@ function App() {
     return () => observer.disconnect();
   }, []);
 
+  useEffect(() => {
+    const root = document.documentElement;
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    function onMove(event) {
+      root.style.setProperty('--cursor-x', `${event.clientX}px`);
+      root.style.setProperty('--cursor-y', `${event.clientY}px`);
+    }
+
+    window.addEventListener('pointermove', onMove, { passive: true });
+    return () => window.removeEventListener('pointermove', onMove);
+  }, []);
+
   return (
     <>
       <div className="noise" />
+      <div className="spotlight" />
       <div className="orb orb-a" />
       <div className="orb orb-b" />
 
@@ -82,9 +96,13 @@ function App() {
           <div className="heroVisual" data-reveal>
             <MagneticCard className="portraitCard" active>
               <img src="/assets/profile-main.jpg" alt="Raihan Guntur Ramadhan" />
+              <div className="shine" />
               <div className="statusCard"><b>Raihan Guntur Ramadhan</b><span>React · FastAPI · automation-minded engineer.</span></div>
             </MagneticCard>
             <div className="codeChip chipA">ship useful software</div>
+            <div className="orbitBadge badgeA">React</div>
+            <div className="orbitBadge badgeB">FastAPI</div>
+            <div className="orbitBadge badgeC">Automation</div>
           </div>
         </section>
 
