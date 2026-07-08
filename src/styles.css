@@ -171,17 +171,21 @@ h1 span, h2 span {
 .tilt:hover::before { opacity: 1; }
 .portraitCard {
   position: relative;
-  overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 38px;
   padding: 16px;
   background: linear-gradient(180deg, rgba(255,255,255,.09), rgba(255,255,255,.03));
   box-shadow: var(--shadow);
 }
-.portraitCard img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 28px; filter: saturate(.94) contrast(1.04); }
+.photoWrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: 28px;
+}
+.photoWrap img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 28px; filter: saturate(.94) contrast(1.04); }
 .shine {
   position: absolute;
-  inset: 16px;
+  inset: 0;
   border-radius: 28px;
   pointer-events: none;
   background: linear-gradient(115deg, transparent 28%, rgba(255,255,255,.18) 45%, transparent 62%);

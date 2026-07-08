@@ -95,8 +95,10 @@ function App() {
 
           <div className="heroVisual" data-reveal>
             <MagneticCard className="portraitCard" active>
-              <img src="/assets/profile-main.jpg" alt="Raihan Guntur Ramadhan" />
-              <div className="shine" />
+              <div className="photoWrap">
+                <img src="/assets/profile-main.jpg" alt="Raihan Guntur Ramadhan" />
+                <div className="shine" />
+              </div>
               <div className="statusCard"><b>Raihan Guntur Ramadhan</b><span>React · FastAPI · automation-minded engineer.</span></div>
             </MagneticCard>
             <div className="codeChip chipA">ship useful software</div>
