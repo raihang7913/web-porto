@@ -84,12 +84,12 @@ function App() {
             <h1>Full-stack developer focused on <span>web apps, automation, and AI workflows.</span></h1>
             <p className="lead">I help turn operational problems into usable web tools — from academic admin systems to AI-assisted job workflows.</p>
             <div className="actions">
-              <a className="btn primary" href="#projects">View projects</a>
-              <a className="btn ghost" href="/Raihan-Guntur-Ramadhan-CV.pdf">Download CV</a>
-              {socials.slice(0, 2).map(link => <a key={link.label} className="btn ghost" href={link.href} target="_blank" rel="noreferrer">{link.label}</a>)}
+              <a className="btn primary" href="/Raihan-Guntur-Ramadhan-CV.pdf">Download CV</a>
+              <a className="btn ghost" href="#projects">View projects</a>
+              <a className="btn ghost" href="mailto:raihan7913@gmail.com">Contact me</a>
             </div>
             <div className="proofLine">
-              <span>S1 Teknik Komputer</span><span>Ex-Safran Intern</span><span>React · Python · FastAPI</span>
+              <span>Live deployed apps</span><span>Ex-Safran Intern</span><span>GitHub active</span>
             </div>
           </div>
 

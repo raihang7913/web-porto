@@ -6,9 +6,9 @@ export const socials = [
 ];
 
 export const services = [
-  ['Build internal tools', 'Admin panels, dashboards, and CRUD workflows that replace messy spreadsheets.'],
-  ['Automate repetitive work', 'Scripts, scrapers, and AI-assisted flows for tasks teams repeat every day.'],
-  ['Connect product pieces', 'Frontend, backend APIs, databases, and deployment-ready app structure.'],
+  ['Build internal tools', 'Example: school admin panels, dashboards, and CRUD workflows that replace messy spreadsheets.'],
+  ['Automate repetitive work', 'Example: job scraping, CV tailoring, document generation, and AI-assisted flows.'],
+  ['Connect product pieces', 'Example: React frontend, API backend, database, auth, and deployment-ready structure.'],
 ];
 
 export const projects = [
@@ -16,18 +16,18 @@ export const projects = [
     title: 'Job Match & CV Tailoring App',
     eyebrow: 'AI-assisted workflow',
     description: 'A job-search tool that compares job posts against a CV, then rewrites the CV wording to match the target role while preserving the source document structure.',
-    proof: ['Role: Full-stack developer', 'Built: CV parsing, matching, and tailored DOCX output', 'Outcome: practical workflow for faster job applications'],
+    proof: ['Role: Full-stack developer', 'Built: CV parsing, matching, and tailored DOCX output', 'Outcome: live AI workflow for faster job applications'],
     tags: ['React', 'FastAPI', 'SQLite', 'LLM workflow'],
-    href: '#contact',
-    cta: 'Ask about this project',
+    href: 'https://gaweai.muu.my.id/',
+    cta: 'Open live app',
     featured: true,
   },
   {
     title: 'Sinfomik',
     eyebrow: 'Academic admin system',
-    description: 'A school information system for managing students, teachers, classes, subjects, and grades in one web-based workflow.',
-    proof: ['Role: Full-stack developer', 'Built: core academic data management', 'Outcome: live admin system portfolio proof'],
-    tags: ['Web App', 'CRUD', 'Admin System'],
+    description: 'A full-stack academic management system for elementary school workflows: authentication, admin/guru modules, student data, classes, grades, analytics, and Excel import/export.',
+    proof: ['Role: Full-stack web developer', 'Built: React frontend, Express API, JWT auth, SQLite data layer, Excel/PDF reporting', 'Outcome: deployed school academic information system'],
+    tags: ['React', 'Express', 'SQLite', 'JWT', 'ExcelJS', 'Recharts'],
     href: 'https://sinfokas.online',
     cta: 'Open live site',
     image: '/assets/sinfomik.jpg',
